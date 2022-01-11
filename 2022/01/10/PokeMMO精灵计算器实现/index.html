@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
-    <head hexo-theme='https://github.com/volantis-x/hexo-theme-volantis/tree/5.0.0-rc.1'>
+    <head hexo-theme='https://github.com/volantis-x/hexo-theme-volantis/tree/5.0.0-alpha.5'>
   <meta name="generator" content="Hexo 6.0.0">
   <meta charset="utf-8">
   <!-- SEO相关 -->
   
-  <link rel="canonical" href="https://mapleleaf9629.github.io/project/2022/01/10/pokemmo精灵计算器实现/"/>
+  <link rel="canonical" href="https://mapleleaf9629.github.io/2022/01/10/pokemmo精灵计算器实现/"/>
   <!-- 渲染优化 -->
   <meta http-equiv='x-dns-prefetch-control' content='on' />
   <link rel='dns-prefetch' href='https://cdn.jsdelivr.net'>
@@ -20,7 +20,7 @@
   <meta content="Maple的小博客" name="apple-mobile-web-app-title">
   <meta content="black-translucent" name="apple-mobile-web-app-status-bar-style">
   <meta content="telephone=no" name="format-detection">
-  <link rel="preload" href="/project/css/style.css?time=1641797600283" as="style">
+  <link rel="preload" href="/css/style.css?time=1641865448864" as="style">
   <link rel="preload" href="https://cdn.jsdelivr.net/gh/volantis-x/cdn-fonts/VarelaRound/VarelaRound-Regular.ttf" as="font" type="font/ttf" crossorigin="anonymous">
 <link rel="preload" href="https://cdn.jsdelivr.net/gh/volantis-x/cdn-fonts/UbuntuMono/UbuntuMono-Regular.ttf" as="font" type="font/ttf" crossorigin="anonymous">
 
@@ -29,7 +29,7 @@
   <meta name="keywords" content="Maple">
   <meta property="og:type" content="article">
 <meta property="og:title" content="PokeMMO精灵计算器实现">
-<meta property="og:url" content="https://mapleleaf9629.github.io/project/2022/01/10/PokeMMO%E7%B2%BE%E7%81%B5%E8%AE%A1%E7%AE%97%E5%99%A8%E5%AE%9E%E7%8E%B0/index.html">
+<meta property="og:url" content="https://mapleleaf9629.github.io/2022/01/10/PokeMMO%E7%B2%BE%E7%81%B5%E8%AE%A1%E7%AE%97%E5%99%A8%E5%AE%9E%E7%8E%B0/index.html">
 <meta property="og:site_name" content="Maple的小博客">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/favicon/android-chrome-192x192.png">
@@ -1657,8 +1657,8 @@ ul.list-v >li>a:hover {
 }
 
   </style>
-  <link rel="stylesheet" href="/project/css/style.css?time=1641797600283" media="print" onload="this.media='all';this.onload=null">
-  <noscript><link rel="stylesheet" href="/project/css/style.css?time=1641797600283"></noscript>
+  <link rel="stylesheet" href="/css/style.css?time=1641865448864" media="print" onload="this.media='all';this.onload=null">
+  <noscript><link rel="stylesheet" href="/css/style.css?time=1641865448864"></noscript>
   
 <script>
 if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMode))
@@ -2094,7 +2094,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 		<div class="nav-main">
       
         
-        <a class="title flat-box" target="_self" href='/project/'>
+        <a class="title flat-box" target="_self" href='/'>
           
             <img no-lazy class='logo' src='https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/Logo-NavBar@3x.png' alt="This is a picture without description" />
           
@@ -2112,11 +2112,11 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover" 
-                href="/project/" title="博客"
+                href="/" title="博客"
                   
                   
                   
-                    active-action="action-project"
+                    active-action="action-home"
                   >
                   <i class='fas fa-rss fa-fw'></i>博客
                 </a>
@@ -2129,11 +2129,11 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover" 
-                href="/project/categories/" title="分类"
+                href="/categories/" title="分类"
                   
                   
                   
-                    active-action="action-projectcategories"
+                    active-action="action-categories"
                   >
                   <i class='fas fa-folder-open fa-fw'></i>分类
                 </a>
@@ -2146,11 +2146,11 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover" 
-                href="/project/tags/" title="标签"
+                href="/tags/" title="标签"
                   
                   
                   
-                    active-action="action-projecttags"
+                    active-action="action-tags"
                   >
                   <i class='fas fa-tags fa-fw'></i>标签
                 </a>
@@ -2163,11 +2163,11 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover" 
-                href="/project/archives/" title="归档"
+                href="/archives/" title="归档"
                   
                   
                   
-                    active-action="action-projectarchives"
+                    active-action="action-archives"
                   >
                   <i class='fas fa-archive fa-fw'></i>归档
                 </a>
@@ -2180,11 +2180,11 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover" 
-                href="/project/friends/" title="友链"
+                href="/friends/" title="友链"
                   
                   
                   
-                    active-action="action-projectfriends"
+                    active-action="action-friends"
                   >
                   <i class='fas fa-link fa-fw'></i>友链
                 </a>
@@ -2197,11 +2197,11 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover" 
-                href="/project/about/" title="关于"
+                href="/about/" title="关于"
                   
                   
                   
-                    active-action="action-projectabout"
+                    active-action="action-about"
                   >
                   <i class='fas fa-info-circle fa-fw'></i>关于
                 </a>
@@ -2212,13 +2212,14 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
           
 				</ul>
 			</div>
-
+      
       <div class="m_search">
         <form name="searchform" class="form u-search-form">
           <i class="icon fas fa-search fa-fw"></i>
           <input type="text" class="input u-search-input" placeholder="Search..." />
         </form>
       </div>
+      
 
 			<ul class='switcher nav-list-h m-phone'>
 				
@@ -2232,11 +2233,11 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover" 
-                href="/project/" title="博客"
+                href="/" title="博客"
                   
                   
                   
-                    active-action="action-project"
+                    active-action="action-home"
                   >
                   <i class='fas fa-rss fa-fw'></i>博客
                 </a>
@@ -2249,11 +2250,11 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover" 
-                href="/project/categories/" title="分类"
+                href="/categories/" title="分类"
                   
                   
                   
-                    active-action="action-projectcategories"
+                    active-action="action-categories"
                   >
                   <i class='fas fa-folder-open fa-fw'></i>分类
                 </a>
@@ -2266,11 +2267,11 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover" 
-                href="/project/tags/" title="标签"
+                href="/tags/" title="标签"
                   
                   
                   
-                    active-action="action-projecttags"
+                    active-action="action-tags"
                   >
                   <i class='fas fa-tags fa-fw'></i>标签
                 </a>
@@ -2283,11 +2284,11 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover" 
-                href="/project/archives/" title="归档"
+                href="/archives/" title="归档"
                   
                   
                   
-                    active-action="action-projectarchives"
+                    active-action="action-archives"
                   >
                   <i class='fas fa-archive fa-fw'></i>归档
                 </a>
@@ -2300,11 +2301,11 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover" 
-                href="/project/friends/" title="友链"
+                href="/friends/" title="友链"
                   
                   
                   
-                    active-action="action-projectfriends"
+                    active-action="action-friends"
                   >
                   <i class='fas fa-link fa-fw'></i>友链
                 </a>
@@ -2317,11 +2318,11 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover" 
-                href="/project/about/" title="关于"
+                href="/about/" title="关于"
                   
                   
                   
-                    active-action="action-projectabout"
+                    active-action="action-about"
                   >
                   <i class='fas fa-info-circle fa-fw'></i>关于
                 </a>
@@ -2364,38 +2365,38 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       <div class='list-h'>
         
           
-            <a href="/project/v4/getting-started/"
+            <a href="/v4/getting-started/"
               
               
-              active-action="action-projectv4getting-started">
+              active-action="action-v4getting-started">
               <img src='https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f5c3.svg' alt="This is a picture without description" ><p>文档</p>
             </a>
           
-            <a href="/project/faqs/"
+            <a href="/faqs/"
               
               
-              active-action="action-projectfaqs">
+              active-action="action-faqs">
               <img src='https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f516.svg' alt="This is a picture without description" ><p>帮助</p>
             </a>
           
-            <a href="/project/examples/"
+            <a href="/examples/"
               
               
-              active-action="action-projectexamples">
+              active-action="action-examples">
               <img src='https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f396.svg' alt="This is a picture without description" ><p>示例</p>
             </a>
           
-            <a href="/project/contributors/"
+            <a href="/contributors/"
               
               
-              active-action="action-projectcontributors">
+              active-action="action-contributors">
               <img src='https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f389.svg' alt="This is a picture without description" ><p>社区</p>
             </a>
           
-            <a href="/project/archives/"
+            <a href="/archives/"
               
               
-              active-action="action-projectarchives">
+              active-action="action-archives">
               <img src='https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f4f0.svg' alt="This is a picture without description" ><p>博客</p>
             </a>
           
@@ -2423,7 +2424,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
           
 <div id="l_main" class=''>
   <article itemscope itemtype="http://schema.org/Article" class="article post white-box reveal md shadow article-type-post" id="post" itemscope itemprop="blogPost">
-  <link itemprop="mainEntityOfPage" href="https://mapleleaf9629.github.io/project/2022/01/10/PokeMMO%E7%B2%BE%E7%81%B5%E8%AE%A1%E7%AE%97%E5%99%A8%E5%AE%9E%E7%8E%B0/">
+  <link itemprop="mainEntityOfPage" href="https://mapleleaf9629.github.io/2022/01/10/PokeMMO%E7%B2%BE%E7%81%B5%E8%AE%A1%E7%AE%97%E5%99%A8%E5%AE%9E%E7%8E%B0/">
   <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
     <meta itemprop="name" content="Maple的小博客">
   </span>
@@ -2448,7 +2449,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
 <div class='new-meta-item author' itemprop="author" itemscope itemtype="http://schema.org/Person">
   <a itemprop="url" class='author' href="/" rel="nofollow">
-    " class="lazyload" data-srcset="" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==<img itemprop="image" src="" alt="This is a picture without description" >
+    <img itemprop="image" src="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/favicon/apple-touch-icon.png" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/favicon/apple-touch-icon.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="This is a picture without description" >
     <p itemprop="name">请设置文章作者</p>
   </a>
 </div>
@@ -2504,7 +2505,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
               
             
               
-                <p>本文永久链接是：<a href=https://mapleleaf9629.github.io/project/2022/01/10/PokeMMO%E7%B2%BE%E7%81%B5%E8%AE%A1%E7%AE%97%E5%99%A8%E5%AE%9E%E7%8E%B0/>https://mapleleaf9629.github.io/project/2022/01/10/PokeMMO%E7%B2%BE%E7%81%B5%E8%AE%A1%E7%AE%97%E5%99%A8%E5%AE%9E%E7%8E%B0/</a></p>
+                <p>本文永久链接是：<a href=https://mapleleaf9629.github.io/2022/01/10/PokeMMO%E7%B2%BE%E7%81%B5%E8%AE%A1%E7%AE%97%E5%99%A8%E5%AE%9E%E7%8E%B0/>https://mapleleaf9629.github.io/2022/01/10/PokeMMO%E7%B2%BE%E7%81%B5%E8%AE%A1%E7%AE%97%E5%99%A8%E5%AE%9E%E7%8E%B0/</a></p>
               
             
           </blockquote>
@@ -2543,7 +2544,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       
         <a class="-mob-share-qq" title="" rel="external nofollow noopener noreferrer noopener"
           
-          target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://mapleleaf9629.github.io/project/2022/01/10/PokeMMO%E7%B2%BE%E7%81%B5%E8%AE%A1%E7%AE%97%E5%99%A8%E5%AE%9E%E7%8E%B0/&title=PokeMMO精灵计算器实现 - Maple的小博客&summary="
+          target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://mapleleaf9629.github.io/2022/01/10/PokeMMO%E7%B2%BE%E7%81%B5%E8%AE%A1%E7%AE%97%E5%99%A8%E5%AE%9E%E7%8E%B0/&title=PokeMMO精灵计算器实现 - Maple的小博客&summary="
           
           >
           
@@ -2555,7 +2556,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       
         <a class="-mob-share-qzone" title="" rel="external nofollow noopener noreferrer noopener"
           
-          target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://mapleleaf9629.github.io/project/2022/01/10/PokeMMO%E7%B2%BE%E7%81%B5%E8%AE%A1%E7%AE%97%E5%99%A8%E5%AE%9E%E7%8E%B0/&title=PokeMMO精灵计算器实现 - Maple的小博客&summary="
+          target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://mapleleaf9629.github.io/2022/01/10/PokeMMO%E7%B2%BE%E7%81%B5%E8%AE%A1%E7%AE%97%E5%99%A8%E5%AE%9E%E7%8E%B0/&title=PokeMMO精灵计算器实现 - Maple的小博客&summary="
           
           >
           
@@ -2567,7 +2568,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       
         <a class="-mob-share-weibo" title="" rel="external nofollow noopener noreferrer noopener"
           
-          target="_blank" href="http://service.weibo.com/share/share.php?url=https://mapleleaf9629.github.io/project/2022/01/10/PokeMMO%E7%B2%BE%E7%81%B5%E8%AE%A1%E7%AE%97%E5%99%A8%E5%AE%9E%E7%8E%B0/&title=PokeMMO精灵计算器实现 - Maple的小博客&summary="
+          target="_blank" href="http://service.weibo.com/share/share.php?url=https://mapleleaf9629.github.io/2022/01/10/PokeMMO%E7%B2%BE%E7%81%B5%E8%AE%A1%E7%AE%97%E5%99%A8%E5%AE%9E%E7%8E%B0/&title=PokeMMO精灵计算器实现 - Maple的小博客&summary="
           
           >
           
@@ -2600,10 +2601,17 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   
     <div class="prev-next">
       
+        <a class='prev' href='/2022/01/10/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AABlog/'>
+          <p class='title'><i class="fas fa-chevron-left" aria-hidden="true"></i>我的第一个Blog</p>
+          <p class='content'>测试使用的第一个Blog，测试下Hexo+Git的模式捣鼓得如何（其实已经捣鼓了一天了）
+
+</p>
+        </a>
       
-        <a class='next' href='/project/2022/01/10/hello-world/'>
-          <p class='title'>Hello World<i class="fas fa-chevron-right" aria-hidden="true"></i></p>
-          <p class='content'>Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any ...</p>
+      
+        <a class='next' href='/2022/01/10/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E8%AE%A1%E7%AE%97%E7%BB%86%E8%8A%82/'>
+          <p class='title'>PokeMMO精灵计算器实现<i class="fas fa-chevron-right" aria-hidden="true"></i></p>
+          <p class='content'>能力值计算公式（[ ]表示取整）HP[种族值2+个体值+[努力值/4]]*等级/100+等级+10物攻、物防、特攻、特防、速度[[种族值2+个体值+[努力值/4]]*等级/100+5]*性格修正...</p>
         </a>
       
     </div>
@@ -2619,7 +2627,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   
   <article class="post white-box reveal shadow" id="comments">
     <span hidden>
-      <meta itemprop="discussionUrl" content="/project/2022/01/10/PokeMMO%E7%B2%BE%E7%81%B5%E8%AE%A1%E7%AE%97%E5%99%A8%E5%AE%9E%E7%8E%B0/index.html#comments">
+      <meta itemprop="discussionUrl" content="/2022/01/10/PokeMMO%E7%B2%BE%E7%81%B5%E8%AE%A1%E7%AE%97%E5%99%A8%E5%AE%9E%E7%8E%B0/index.html#comments">
     </span>
     <p ct><i class='fas fa-comments'></i> 评论</p>
     
@@ -2757,7 +2765,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     
       
         本站使用
-        <a href="https://github.com/volantis-x/hexo-theme-volantis/tree/5.0.0-rc.1" target="_blank" class="codename">Volantis</a>
+        <a href="https://github.com/volantis-x/hexo-theme-volantis/tree/dev" target="_blank" class="codename">Volantis</a>
         作为主题
       
     
@@ -2808,8 +2816,8 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   <script>
   volantis.message = (title, message, option = {}, done = null) => {
     if (typeof iziToast === "undefined") {
-      volantis.css('/project/css/message.css?time=1641797600282')
-      volantis.js('/project/js/message.js?time=1641797600283', () => {
+      volantis.css('/css/message.css?time=1641865448864')
+      volantis.js('/js/thirdparty/message.js?time=1641865448864', () => {
         tozashMessage(title, message, option, done);
       });
     } else {
@@ -2854,8 +2862,8 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
   volantis.question = (title, message, option = {}, success = null, cancel = null, done = null) => {
     if (typeof iziToast === "undefined") {
-      volantis.css('/project/css/message.css?time=1641797600282')
-      volantis.js('/project/js/message.js?time=1641797600283', () => {
+      volantis.css('/css/message.css?time=1641865448864')
+      volantis.js('/js/thirdparty/message.js?time=1641865448864', () => {
         tozashQuestion(title, message, option, success, cancel, done);
       });
     } else {
@@ -2914,8 +2922,8 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     }
     
     if (typeof iziToast === "undefined") {
-      volantis.css('/project/css/message.css?time=1641797600282')
-      volantis.js('/project/js/message.js?time=1641797600283', () => {
+      volantis.css('/css/message.css?time=1641865448864')
+      volantis.js('/js/thirdparty/message.js?time=1641865448864', () => {
         hideMessage(done);
       });
     } else {
@@ -2979,6 +2987,12 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
           
           <i class='fa fa-cut fa-fw mR12'></i> 剪切文本
         </span>
+        
+        <span class='vlts-menu opt fix-cursor-default menu-Option' data-fn-type='searchWord'>
+          
+          <i class='fa fa-search fa-fw'></i> 站内搜索
+        </span>
+        
         <span class='vlts-menu opt fix-cursor-default menu-Option' data-fn-type='openTab'>
           
           <i class='fa fa-external-link-square-alt fa-fw mR12'></i> 在新标签页打开
@@ -3117,12 +3131,26 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
         
       
         
+          
+    <li class="menuLoad-Content">
+      <a class='vlts-menu fix-cursor-default' 
+        
+        
+        
+        
+      >
+         
+      </a>
+    </li>
+  
+        
       
     </ul>
   </div>
   <script>
     volantis.rightMenu = {};
     volantis.rightMenu.faicon = 'fa' || 'fa';
+    volantis.rightMenu.musicAlwaysShow = 'true' === 'true';
     
     
       volantis.rightMenu.defaultStyles = true;
@@ -3133,7 +3161,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     
       volantis.APlayerController = {};
     
-    volantis.js('/project/js/rightMenu.js?time=1641797600282')
+    volantis.js('/js/plugins/rightMenu.js?time=1641865448864')
   </script>
 
 
@@ -3147,19 +3175,19 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     
       const sites_api = document.getElementById('sites-api');
       if (sites_api != undefined && typeof SitesJS === 'undefined') {
-        volantis.js("/project/js/plugins/sites.js?time=1641797600283")
+        volantis.js("/js/plugins/sites.js?time=1641865448864")
       }
     
     
       const friends_api = document.getElementById('friends-api');
       if (friends_api != undefined && typeof FriendsJS === 'undefined') {
-        volantis.js("/project/js/plugins/friends.js?time=1641797600283")
+        volantis.js("/js/plugins/friends.js?time=1641865448864")
       }
     
     
       const contributors_api = document.getElementById('contributors-api');
       if (contributors_api != undefined && typeof ContributorsJS === 'undefined') {
-        volantis.js("/project/js/plugins/contributors.js?time=1641797600283")
+        volantis.js("/js/plugins/contributors.js?time=1641865448864")
       }
     
   };
@@ -3223,51 +3251,57 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
 
   <script>
-  volantis.layoutHelper("comments",`<div id="giscus_container"></div>`)
+  volantis.layoutHelper("comments",`<div id="artalk_container"><i class="fas fa-cog fa-spin fa-fw fa-2x"></i></div>`);
+  function load_artalk() {
+    if(!document.querySelectorAll("#artalk_container")[0])return;
+    volantis.css("https://cdn.jsdelivr.net/npm/artalk@2.1.3/dist/Artalk.css");
+    volantis.js("https://cdn.jsdelivr.net/npm/artalk@2.1.3/dist/Artalk.js").then(pjax_artalk);
+  }
 
-  volantis.giscus = {};
-
-  function check_giscus() {
-    if (volantis.dark.mode === "dark") {
-      volantis.giscus.Theme = 'https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@master/css/giscus/dark.css';
-    } else {
-      volantis.giscus.Theme = 'https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@master/css/giscus/light.css';
+  function pjax_artalk() {
+    if(!document.querySelectorAll("#artalk_container")[0])return;
+    let path = pdata.commentPath;
+    let placeholder = pdata.commentPlaceholder || "来啊，快活啊 ( ゜- ゜)" || "";
+    if (path.length == 0) {
+      path = '' || decodeURI(window.location.pathname);
     }
 
-    return document.getElementById("giscus_container");
-  }
+    volantis.artalk = new Artalk(Object.assign({"js":"https://cdn.jsdelivr.net/npm/artalk@2.1.3/dist/Artalk.js","css":"https://cdn.jsdelivr.net/npm/artalk@2.1.3/dist/Artalk.css","server":"http://127.0.0.1:8080/api","path":null,"placeholder":"来啊，快活啊 ( ゜- ゜)","noComment":"快来成为第一个评论的人吧~","pagination":{"readMore":true,"autoLoad":false,"pageSize":10}}, {
+      el: '#artalk_container',
+      pageKey: path,
+      pageTitle: document.title,
+      placeholder: placeholder,
+      site: 'Maple的小博客',
+      darkMode: volantis.dark.mode === "dark"
+    }));
 
-  function pjax_giscus() {
-    const HEAD = check_giscus();
-    if (!HEAD) return;
-    let cfg = Object.assign({"theme":{"light":"https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@master/css/giscus/light.css","dark":"https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@master/css/giscus/dark.css"}},pdata.commentConfig)
-    const script = document.createElement('script');
-    script.setAttribute('src', 'https://giscus.app/client.js');
-    Object.keys(cfg).forEach(k=>{
-      if (k != "theme") {
-        script.setAttribute('data-'+k, cfg[k]);
+    volantis.artalk.on('comments-loaded', () => {
+      if (typeof VolantisFancyBox === "undefined"){
+        const checkFancyBox = setInterval(() => {
+          if(typeof VolantisFancyBox === "undefined") return;
+          clearInterval(checkFancyBox);
+          VolantisFancyBox.groupBind('.atk-content img:not([atk-emoticon])', 'Comments');
+        })
+      } else {
+        VolantisFancyBox.groupBind('.atk-content img:not([atk-emoticon])', 'Comments');
       }
     })
-    script.setAttribute('data-theme', volantis.giscus.Theme);
-    script.setAttribute('crossorigin', "anonymous");
-    HEAD.appendChild(script);
   }
 
-  function dark_giscus() {
-    const HEAD = check_giscus();
-    if (!HEAD) return;
+  load_artalk();
+  volantis.pjax.push(()=>{
+    if (typeof Artalk === "undefined") {
+      load_artalk();
+    } else {
+      pjax_artalk();
+    }
+  },'artalk');
 
-    const message = {
-      setConfig: {
-        theme: volantis.giscus.Theme
-      }
-    };
-    const giscusIframe = document.querySelector('iframe.giscus-frame');
-    giscusIframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+  function dark_artalk() {
+    if(!document.querySelectorAll("#artalk_container")[0]) return;
+    volantis.artalk.setDarkMode(volantis.dark.mode === "dark")
   }
-  pjax_giscus();
-  volantis.pjax.push(pjax_giscus);
-  volantis.dark.push(dark_giscus);
+  volantis.dark.push(dark_artalk);
 </script>
 
 
@@ -3275,20 +3309,20 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
 
 
-<script src="/project/project/js/app.js?time=1641797600283.js"></script>
+<script src="/js/app.js?time=1641865448864.js"></script>
 
 
 <!-- optional -->
 
   <script>
-  const SearchServiceDataPathRoot = ("/project/" || "/").endsWith("/")
-    ? "/project/" || "/"
-    : "/project//" || "/";
+  const SearchServiceDataPathRoot = ("/" || "/").endsWith("/")
+    ? "/" || "/"
+    : "//" || "/";
   const SearchServiceDataPath = SearchServiceDataPathRoot + "content.json";
 
   function loadSearchScript() {
     // see: layout/_partial/scripts/_ctrl/cdnCtrl.ejs
-    return volantis.js("/project/js/search/hexo.js?time=1641797600283");
+    return volantis.js("/js/search/hexo.js?time=1641865448864");
   }
 
   function loadSearchService() {
@@ -3353,6 +3387,46 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
 
 
+
+  <script>
+  function load_swiper() {
+    if (!document.querySelectorAll(".swiper-container")[0]) return;
+    volantis.css("https://unpkg.com/swiper@6/swiper-bundle.min.css");
+    volantis.js("https://unpkg.com/swiper@6/swiper-bundle.min.js").then(() => {
+      pjax_swiper();
+    });
+  }
+
+  load_swiper();
+
+  function pjax_swiper() {
+    volantis.swiper = new Swiper('.swiper-container', {
+      slidesPerView: 'auto',
+      spaceBetween: 8,
+      centeredSlides: true,
+      loop: true,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  }
+
+  volantis.pjax.push(() => {
+    if (!document.querySelectorAll(".swiper-container")[0]) return;
+    if (typeof volantis.swiper === "undefined") {
+      load_swiper();
+    } else {
+      pjax_swiper();
+    }
+  });
+</script>
+
+
 <!-- pjax 标签必须存在于所有页面 否则 pjax error -->
 <pjax>
 
@@ -3375,7 +3449,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       link.addEventListener("click", (event) => {
         event.preventDefault();
         // 这里的 addTop 是通过错位使得 toc 自动展开.
-        volantis.scroll.to(target,{addTop: 5, observer:true})
+        volantis.scroll.to(target,{addTop: 5, observer:false})
         // Anchor id
         history.pushState(null, document.title, "#" + target.id);
       });
@@ -3535,7 +3609,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
 
 
-  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"Maple的小博客","url":"https://mapleleaf9629.github.io/project/project/","logo":{"@type":"ImageObject","url":"https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"Maple","image":{"@type":"ImageObject","url":"https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/favicon/android-chrome-192x192.png"},"url":"https://mapleleaf9629.github.io/project/project/","sameAs":["https://github.com/volantis-x"],"description":"这里是Maple的小博客"},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://mapleleaf9629.github.io/project/project/","name":"Maple的小博客"}},{"@type":"ListItem","position":3,"item":{"@id":"https://mapleleaf9629.github.io/project/project/2022/01/10/PokeMMO精灵计算器实现/","name":"PokeMMO精灵计算器实现"}}]},{"@context":"http://schema.org","@type":"BlogPosting","headline":"PokeMMO精灵计算器实现","description":"","datePublished":"2022-01-10T06:24:17.000Z","dateModified":"2022-01-10T06:24:17.601Z","inLanguage":"zh-CN","mainEntityOfPage":{"@type":"WebPage","@id":"https://mapleleaf9629.github.io/project/2022/01/10/PokeMMO%E7%B2%BE%E7%81%B5%E8%AE%A1%E7%AE%97%E5%99%A8%E5%AE%9E%E7%8E%B0/"},"author":{"@type":"Person","name":"Maple","image":{"@type":"ImageObject","url":"https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/favicon/android-chrome-192x192.png"},"url":"https://mapleleaf9629.github.io/project/project/"},"publisher":{"@type":"Organization","name":"Maple的小博客","logo":{"@type":"ImageObject","url":"https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"url":"https://mapleleaf9629.github.io/project/2022/01/10/PokeMMO%E7%B2%BE%E7%81%B5%E8%AE%A1%E7%AE%97%E5%99%A8%E5%AE%9E%E7%8E%B0/","wordCount":0,"image":{"@type":"ImageObject","url":"https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/favicon/android-chrome-192x192.png","width":192,"height":192}}]</script>
+  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"Maple的小博客","url":"https://mapleleaf9629.github.io/","logo":{"@type":"ImageObject","url":"https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"Maple","image":{"@type":"ImageObject","url":"https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/favicon/android-chrome-192x192.png"},"url":"https://mapleleaf9629.github.io/","sameAs":["https://github.com/volantis-x"],"description":"这里是Maple的小博客"},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://mapleleaf9629.github.io/","name":"Maple的小博客"}},{"@type":"ListItem","position":3,"item":{"@id":"https://mapleleaf9629.github.io/2022/01/10/PokeMMO精灵计算器实现/","name":"PokeMMO精灵计算器实现"}}]},{"@context":"http://schema.org","@type":"BlogPosting","headline":"PokeMMO精灵计算器实现","description":"","datePublished":"2022-01-10T06:24:17.000Z","dateModified":"2022-01-10T06:24:17.601Z","inLanguage":"zh-CN","mainEntityOfPage":{"@type":"WebPage","@id":"https://mapleleaf9629.github.io/2022/01/10/PokeMMO%E7%B2%BE%E7%81%B5%E8%AE%A1%E7%AE%97%E5%99%A8%E5%AE%9E%E7%8E%B0/"},"author":{"@type":"Person","name":"Maple","image":{"@type":"ImageObject","url":"https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/favicon/android-chrome-192x192.png"},"url":"https://mapleleaf9629.github.io/"},"publisher":{"@type":"Organization","name":"Maple的小博客","logo":{"@type":"ImageObject","url":"https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"url":"https://mapleleaf9629.github.io/2022/01/10/PokeMMO%E7%B2%BE%E7%81%B5%E8%AE%A1%E7%AE%97%E5%99%A8%E5%AE%9E%E7%8E%B0/","wordCount":0,"image":{"@type":"ImageObject","url":"https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/favicon/android-chrome-192x192.png","width":192,"height":192}}]</script>
 
 
 <!-- more -->
